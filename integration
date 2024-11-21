@@ -4,6 +4,7 @@
  
 double f(double x)
 {
+//replace the return statment with the equation you want to integrate
   return 1/(1+x);
 }
  
@@ -12,7 +13,7 @@ void main()
 {
   int n,i;
   double a,b,h,x,sum=0,integral;
- 
+ //higher the number of intervals ->higher the accuracy of the final answer
   printf("Enter the no. of intervals ");
   scanf("%d",&n);
   printf("Enter the initial limit: ");
